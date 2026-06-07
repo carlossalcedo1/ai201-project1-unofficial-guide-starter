@@ -1,5 +1,6 @@
 # API keys — never commit these
 .env
+.env.example
 
 # Python
 __pycache__/
@@ -15,6 +16,9 @@ env/
 # ChromaDB local storage
 chroma_db/
 chroma/
+
+# Generated pipeline artifacts (re-created by ingest.py / embed.py)
+chunks.json
 
 # macOS
 .DS_Store
